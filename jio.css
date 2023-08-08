@@ -1,0 +1,372 @@
+.title-bar {
+    height: 4.5rem;
+    width: 100%;
+    background-color: #0f3cc9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    position: sticky;
+    top: 0rem;
+    z-index: 10;
+}
+.banner {
+    height: 28.89rem;
+    width: 100%;
+    background-image: url(banner.png);
+    background-size: cover;
+}
+.explore {
+    height: 3.1rem;
+    width: 10rem;
+    font-weight: 700;
+    border-radius: 2.5rem;
+    background-color: #1144e4;
+    color: white;
+    margin-left: 9.735rem;
+    border: 0px solid black;
+    margin-top: 22.5rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.title-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-right: 3.125rem;
+}
+.title-bar a:hover {
+    color: #76c7ea;
+}
+#search {
+    color: white;
+    height: 2.5rem;
+    width: 19.5rem;
+    background-color: #0a2885;
+    margin-left: 0px;
+    margin-right: 3.125rem;
+    border-radius: 1.875rem;
+    border: 0px solid black;
+    display: flex;
+    font-size: 0.9375rem;
+    align-items: center;
+    font-weight: 600;
+    cursor: text;
+}
+#search i {
+    margin-right: 1.25rem;
+    font-size: 1.25rem;
+    margin-left: 0.625rem;
+}
+#search:hover {
+    background-color: #081e61;
+}
+.fa-circle-user {
+    font-size: 2.5rem;
+}
+.fa-circle-user:hover {
+    background-color: #081e61;
+    border-radius: 50%;
+}
+.options {
+    height: 7.75rem;
+    width: 62.5rem;
+    margin-top: 3.75rem;
+    background-color: white;
+    display: flex;
+    margin-left: 18.75rem;
+    align-items: center;
+    justify-content: center;
+}
+.option-tiles span {
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+.option-tiles {
+    margin-right: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option-tiles i {
+    font-size: 1.875rem;
+    margin-left: 0.9375rem;
+    margin-top: 0.9375rem;
+}
+.option-tiles div {
+    height: 3.75rem;
+    width: 3.75rem;
+    background-color: #e0e7ea;
+    border-radius: 50%;
+}
+.option-tiles:hover {
+    cursor: pointer;
+}
+.option-tiles a {
+    text-decoration: none;
+    color: black;
+}
+.badge {
+    margin-left: 0.4375rem;
+    background-color: red;
+}
+#new {
+    margin-bottom: 1.5625rem;
+}
+.badge span {
+    padding-left: 0.1875rem;
+    padding-right: 0.1875rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.true-5G button {
+    color: #cd3d00;
+    background-color: #fef2e9;
+    margin-left: 485px;
+    height: 53px;
+    width: 240px;
+    border-radius: 50px;
+    font-weight: 700;
+    border: 0px solid black;
+    margin-top: 262px;
+}
+.true-5G {
+    height: 332.95px;
+    width: 1200px;
+    background-image: url(true\ 5G.png);
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-left: 175px;
+    border-radius: 30px;
+}
+.true-5G button:hover {
+    background-color: #f06d0f;
+    color: white;
+}
+.heading {
+    font-size: 64px;
+    color: #141414;
+    font-weight: 900;
+}
+.sub-heading {
+    font-size: 18px;
+    color: #000000a6;
+    margin-left: 70px;
+}
+.spotlight {
+    margin-left: 575px;
+    margin-bottom: 20px;
+}
+.spotlight-content {
+    width: 1184px;
+    height: 500px;
+    background-color: #fcfcfc;
+    margin-bottom: 80px;
+    margin-left: 170px;
+    padding: 48px;
+    border-radius: 50px;
+    box-shadow: 0px 15px 10px -15px;
+}
+.dive {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.world {
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    width: 500px;
+    letter-spacing: -1.2px;
+    line-height: 50px;
+}
+.immerse {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #000000a6;
+}
+.jio-dive {
+    font-weight: 700;
+    border-radius: 40px;
+    background-color: #0f3cc9;
+    color: white;
+    border: 0px solid black;
+    height: 50px;
+    width: 199px;
+    margin-top: 24px;
+}
+.jio-dive a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.virtual {
+    float: right;
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+.jio-dive:hover {
+    background-color: #09216a;
+}
+.sub-brands {
+    width: 1184px;
+    margin-left: 170px;
+    height: 500px;
+    margin-top: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.card {
+    height: 500px;
+    width: 350px;
+    background-color: #0f3cc9;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 0px solid black;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+}
+.card-content {
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.card button {
+    font-size: 16px;
+    padding: 4px 12px;
+    color: #061951;
+    height: 37px;
+    width: 180px;
+    background-color: #9eb5fa;
+    font-weight: 700;
+    margin-left: 5px;
+    border: 0px solid black;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.card img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 225px;
+    width: 100%;
+}
+.card button:hover {
+    background-color: #bfcdf8;
+}
+.inner-link {
+    text-decoration: none;
+    color: #061951;
+}
+.outer {
+    text-decoration: none;
+    color: white;
+}
+.need {
+    height: 280px;
+    width: 100%;
+    background-color: #0d2f93;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.need-help {
+    font-size: 64px;
+    color: white;
+    font-weight: 900;
+}
+.we {
+    font-size: 18px;
+    color: #ffffffc7;
+}
+.buttons button {
+    height: 49.6px;
+    width: 126.59px;
+    color: #becefb;
+    background-color: #0f3cc9;
+    border: 1px solid #becefb;
+    border-radius: 35px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+#chat {
+    width: 161.31px;
+    height: 49.6px;
+}
+#store {
+    height: 49.6px;
+    width: 156px;
+}
+.contact {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttons button:hover {
+    border: 2px solid white;
+}
+.contact li {
+    font-size: 16px;
+    height: 36px;
+    width: 182px;
+    display: flex;
+    align-items: center;
+}
+.contact-heading {
+    font-size: 16px;
+    color: #141414;
+    font-weight: 900;
+    margin-left: 35px;
+}
+.contact div {
+    height: 268px;
+    width: 182px;
+}
+.contact a {
+    color: #000000a6;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+ul {
+    list-style-type: none;
+}
+.contact li:hover {
+    background-color: rgb(225, 220, 220);
+}
+.contact-heading:hover {
+    background-color: white;
+}
+.connect {
+    width: 400px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.connect i {
+    font-size: 28px;
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 30px;
+}
+.icons {
+    margin-top: 20px;
+}
